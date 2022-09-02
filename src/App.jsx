@@ -4,6 +4,8 @@ import "./app.scss";
 import InterCards from "./components/InterCards/interCards";
 import Steps from "./components/Steps/Steps";
 import Partners from "./components/Partners/Partners";
+import Contact from "./components/ContactForm/contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Home />
       <InterCards />
       <Steps />
+      <Contact />
       <Partners />
+      <Footer />
     </div>
   );
 }

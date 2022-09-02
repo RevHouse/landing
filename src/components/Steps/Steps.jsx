@@ -1,5 +1,5 @@
 import "./steps.scss";
-import steps from "../../assets/steps.svg";
+import steps from "../../assets/stepss.svg";
 
 const Steps = () => {
   return (
@@ -8,6 +8,9 @@ const Steps = () => {
         <div className="image-container">
           <img src={steps} className="steps-image" />
         </div>
+        <a href="#form-box-container">
+          <button className="button-ign">¡IGNITION!</button>
+        </a>
       </div>
     </div>
   );
